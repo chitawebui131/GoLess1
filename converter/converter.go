@@ -1,6 +1,6 @@
 // Package converter реалізує просту конвертацію валют за фіксованим курсом.
 //
-// Завдання 4 (бонус): реалізуйте ConvertCurrency 
+// Завдання 4 (бонус): реалізуйте ConvertCurrency
 //  порівняйте результат із вимогами в converter_test.go.
 package converter
 
@@ -17,7 +17,7 @@ func ConvertCurrency(amount float64, rate float64) (float64, error) {
 	if amount < 0 {
 		return 0, errors.New("amount must not be negative")
 	}
-	
+
 	// Перевірка на некоректний курс (має бути строго більше нуля)
 	if rate <= 0 {
 		return 0, errors.New("rate must be positive")
