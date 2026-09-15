@@ -1,7 +1,8 @@
 // Package converter реалізує просту конвертацію валют за фіксованим курсом.
 //
 // Завдання 4 (бонус): реалізуйте ConvertCurrency
-//  порівняйте результат із вимогами в converter_test.go.
+//
+//	порівняйте результат із вимогами в converter_test.go.
 package converter
 
 import "errors"
